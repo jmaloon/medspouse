@@ -3,7 +3,7 @@ import Layout from '~/layouts/LandingLayout.astro';
 
 import Features from '~/components/widgets/Features.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
-// import CallToAction from '~/components/widgets/CallToAction.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Med Spouse Men',
@@ -35,19 +35,6 @@ const metadata = {
       alt: 'Man looking away from camera over landscape. Coming Soon Landing Page.',
     }}
   />
-
-  <!-- <CallToAction
-    title="Coming soon"
-    subtitle="We are working on the content of these demo pages. You will see them very soon. Stay tuned Stay tuned!"
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Download Template',
-        href: 'https://github.com/onwidget/astrowind',
-        icon: 'tabler:download',
-      },
-    ]}
-  /> -->
 
   <Features
     id="benefits"
@@ -108,6 +95,20 @@ const metadata = {
         description:
           'Join local or virtual meetups to network with other medical spouse men. Build friendships and exchange ideas in a supportive environment.',
         icon: 'tabler:ticket',
+      },
+    ]}
+  />
+
+  <CallToAction
+    title="Coming soon"
+    subtitle="We are working on building this community. Join by clicking the button below and we'll be in touch  !"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Join Now',
+        href: 'https://forms.gle/KqFhxcq1b2MRmHeG6',
+        // icon: 'tabler:download',
+        target: '_blank',
       },
     ]}
   />
