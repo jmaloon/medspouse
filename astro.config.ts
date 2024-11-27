@@ -89,5 +89,5 @@ export default defineConfig({
   },
 
   site: 'https://jmaloon@github.io',
-  base: 'medspouse',
+  base: '/medspouse',
 });
